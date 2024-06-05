@@ -23,10 +23,10 @@ class XMLHandler(xml.sax.ContentHandler):
 
 def validate_uuids(xml_file):
     try:
-        # Create XML handler
+        # Opprett XML handler
         handler = XMLHandler()
 
-        # Parse the XML file using SAX parser
+        # Parse XML-fil med SAX parser
         parser = xml.sax.make_parser()
         parser.setContentHandler(handler)
         parser.parse(xml_file)
