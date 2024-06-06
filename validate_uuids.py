@@ -31,7 +31,7 @@ def validate_uuids(xml_file):
         parser.setContentHandler(handler)
         parser.parse(xml_file)
 
-        # Debug: Print the extracted UUIDs
+        # Debug: Print leste UUIDs (kan fjernes, kun brukt til debugging)
         print("systemID values:")
         for system_id in handler.system_ids:
             print(system_id)
