@@ -40,7 +40,7 @@ def validate_uuids(xml_file):
         for referanse_id in handler.referanse_ids:
             print(referanse_id)
 
-        # Check if all referanse_ids exist in system_ids
+        # Sjekk av at alle referanse_ids eksisterer i system_ids
         invalid_referanse_ids = [id for id in handler.referanse_ids if id not in handler.system_ids]
 
         if not invalid_referanse_ids:
