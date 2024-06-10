@@ -50,7 +50,7 @@ def validate_uuids(xml_file):
             for id in invalid_referanse_ids:
                 print(id)
 
-            # Write the invalid UUIDs to a text file
+            # Skriv ugyldige UUIDer til tekst fil
             output_file = os.path.join(os.path.dirname(xml_file), 'invalid_referanseTilMappe.txt')
             with open(output_file, 'w') as f:
                 for id in invalid_referanse_ids:
