@@ -60,7 +60,7 @@ def validate_uuids(xml_file):
     except Exception as e:
         print(f"Error parsing XML file: {e}")
 
-# Replace 'your_file.xml' with the path to your XML file
+# Erstatt 'your_file.xml' med banen til .xml filen
 xml_file = "4643_004_Websak_(2005-2019)-papir.xml"
 validate_uuids(xml_file)
 
