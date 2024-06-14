@@ -1,7 +1,7 @@
 import xml.sax
 import os
 
-#Skript for å håndtere feil i Noark-5 uttrekke (kryssreferanser som referer til ikke-eksisterende <systemID>) 
+#Skript for å håndtere feil i Noark-5 uttrekk (kryssreferanser som referer til ikke-eksisterende <systemID>) 
 
 class XMLHandler(xml.sax.ContentHandler):
     def __init__(self):
