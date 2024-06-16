@@ -63,7 +63,7 @@ def validate_uuids(xml_file):
         print(f"Error parsing XML file: {e}")
 
 # Erstatt 'your_file.xml' med banen til .xml filen
-xml_file = "4643_004_Websak_(2005-2019)-papir.xml"
+xml_file = "banen_til_din_fil.xml"
 validate_uuids(xml_file)
 
 
