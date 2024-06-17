@@ -62,7 +62,7 @@ def validate_uuids(xml_file):
     except Exception as e:
         print(f"Error parsing XML file: {e}")
 
-# Erstatt 'your_file.xml' med banen til .xml filen
+# Erstatt 'banen_til_din_fil.xml' med banen til .xml filen
 xml_file = "banen_til_din_fil.xml"
 validate_uuids(xml_file)
 
