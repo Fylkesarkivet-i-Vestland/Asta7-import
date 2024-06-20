@@ -1,4 +1,4 @@
-# Skript for håndtering av døde kryssreferanser for improt av arkivstruktur.xml i Asta7 
+# Skript for håndtering av døde kryssreferanser for import av arkivstruktur.xml i Asta7 
 
 ## Innstruks
 
